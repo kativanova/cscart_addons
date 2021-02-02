@@ -1,0 +1,17 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::my_cookies"
+msgid "Cookies design customization"
+msgstr "Cookies design customization"
+
+msgctxt "Addons::description::my_cookies"
+msgid "Modifies the notification shown for the GDPR cookies"
+msgstr "Modifies the notification shown for the GDPR cookies"
+
+msgctxt "Languages::cookies_and_privacy"
+msgid "Cookies & Privacy"
+msgstr "Cookies & Privacy"
