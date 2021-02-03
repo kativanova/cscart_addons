@@ -1,29 +1,57 @@
-.gdpr-cookies {
-  color: black;
-  background-color: white;
-  border: #999 solid 2px;
-  border-radius: 7px;
-}
-
 .gdpr-cookies strong {
-  color: #f55;
+  color: #484848;
 }
 
-.gdpr-cookies .button a{
-  display: block;
-  background-color: #f55;
-  color: white;
-  border-radius: 2px;
-  width: 45px;
-  text-align: center;
-  margin-top: 5px;
+.notification-container .gdpr-cookies {
+	position: fixed;
+	bottom: 0;
+	right: 10%;
+	z-index: 1022;
+	width: 80%;
+	box-shadow: rgba(0, 0, 0, 0.28) 0px 8px 28px;
 }
 
-.notification-container .gdpr-cookies{
-    position: fixed;
-    bottom: 0 ;
-    right: 0;
-    z-index: 1022;
-    min-width: 200px;
-    width: 20%;
+.gdpr-cookies {
+	color: black;
+	background-color: white;
+	border: #fff solid 2px;
+	border-radius: 8px;
+}
+
+.gdpr-cookies .button a {
+	display: inline-block;
+	background-color: #000;
+	color: white;
+	border-radius: 8px;
+	width: 100%;
+	text-align: center;
+	margin-top: 5px;
+	line-height: 48px;
+	margin-right: 10px;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.cookies_button {
+    display: block;
+    width: 12%;
+    float: right;
+    margin-top: 5px;
+}
+
+.cookies_block::before {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  content: "";
+}
+
+.cookies_text {
+  display: inline-block;
+  vertical-align: middle;
+  width: 80%;
+}
+
+.cookies_block {
+  height: 60px;
 }
