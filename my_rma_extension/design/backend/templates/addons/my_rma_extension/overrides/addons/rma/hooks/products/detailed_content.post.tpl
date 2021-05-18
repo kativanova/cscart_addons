@@ -1,5 +1,5 @@
-{include file="common/subheader.tpl" title=__("rma") target="#acc_addon_rma"}
-<div id="acc_addon_rma" class="collapse in">
+{if $auth.user_type === "UserTypes::ADMIN"|enum}{include file="common/subheader.tpl" title=__("rma") target="#acc_addon_rma"}{/if}
+<div id="acc_addon_rma" class="collapse in {if $auth.user_type != "UserTypes::ADMIN"|enum}hidden{/if}">
     <div class="control-group">
         <label class="control-label" for="is_returnable">{__("returnable")}:</label>
         <div class="controls">
