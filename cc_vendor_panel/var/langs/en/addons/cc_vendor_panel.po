@@ -1,0 +1,22 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+
+msgctxt "Addons::name::cc_vendor_panel"
+msgid "Vendor panel modification"
+msgstr "Vendor panel modification"
+
+msgctxt "Addons::description::cc_vendor_panel"
+msgid "Adds new elements to the vendor panel"
+msgstr "Adds new elements to the vendor panel"
+
+msgctxt "Languages::cc_vendor_panel.welcome"
+msgid "Welcome"
+msgstr "Welcome"
+
+msgctxt "Languages::cc_vendor_panel.add_product"
+msgid "Add you first product here"
+msgstr "Add you first product here"

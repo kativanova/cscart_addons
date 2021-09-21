@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>my_supplier_field</id>
+    <version>1.0</version>
+    <priority>4294967295</priority>
+    <position>0</position>
+    <status>active</status>
+    <supplier>eivanova</supplier>
+    <auto_install>MULTIVENDOR</auto_install>
+    <default_language>en</default_language>
+    <compatibility>
+        <core_version>
+            <min>4.13.2</min>
+            <max>4.13.2</max>
+        </core_version>
+        <core_edition>MULTIVENDOR</core_edition>
+        <dependencies>suppliers</dependencies>
+    </compatibility>
+    <queries>
+        <item for="install">
+            ALTER TABLE `?:suppliers` ADD `account_number` varchar(255) NOT NULL DEFAULT ''
+        </item>
+        <item for="uninstall">
+            ALTER TABLE `?:suppliers` DROP `account_number`
+        </item>
+    </queries>
+</addon>

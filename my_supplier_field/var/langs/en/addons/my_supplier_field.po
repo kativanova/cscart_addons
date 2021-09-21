@@ -1,0 +1,13 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::my_supplier_field"
+msgid "My supplier field"
+msgstr "My supplier field"
+
+msgctxt "Addons::description::my_supplier_field"
+msgid "Adds an Account number field to the supplier's profile and invoice"
+msgstr "Adds an Account number field to the supplier's profile and invoice"

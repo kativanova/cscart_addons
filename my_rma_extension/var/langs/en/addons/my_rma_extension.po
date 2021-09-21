@@ -1,0 +1,25 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::my_rma_extension"
+msgid "RMA extension"
+msgstr "RMA extension"
+
+msgctxt "Addons::description::my_rma_extension"
+msgid "Extends default RMA add-on functionality. Adds global return period setting"
+msgstr "Extends default RMA add-on functionality. Adds global return period setting"
+
+msgctxt "Languages::global_return_period"
+msgid "Global return period"
+msgstr "Global return period"
+
+msgctxt "SettingsSections::my_rma_extension::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::my_rma_extension::global_return_period"
+msgid "Global return period"
+msgstr "Global return period"
