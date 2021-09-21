@@ -1,0 +1,13 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::my_venor_admin_profile"
+msgid "Customized vendor admin profile"
+msgstr "Customized vendor admin profile"
+
+msgctxt "Addons::description::my_venor_admin_profile"
+msgid "Hides fileds from the venodr admin profile"
+msgstr "Hides fileds from the venodr admin profile"

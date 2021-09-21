@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>cc_vendor_panel</id>
+    <version>1.0</version>
+    <priority>4294967284</priority>
+    <position>0</position>
+    <status>active</status>
+    <default_language>en</default_language>
+    <compatibility>
+        <core_version>
+            <min>4.12.2</min>
+        </core_version>
+    </compatibility>
+    <supplier>CS-Cart Support</supplier>
+</addon>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>admin_panel_restirctions</id>
+    <version>1.0</version>
+    <priority>4294967298</priority>
+    <position>0</position>
+    <status>active</status>
+    <supplier>eivanova</supplier>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <default_language>en</default_language>
+    <compatibility>
+        <core_version>
+            <min>4.12.2</min>
+            <max>4.12.2</max>
+        </core_version>
+        <core_edition>MULTIVENDOR</core_edition>
+    </compatibility>
+</addon>
