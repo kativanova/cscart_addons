@@ -1,0 +1,13 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::sort_promotions_by_position"
+msgid "Sort promotions by position"
+msgstr "Sort promotions by position"
+
+msgctxt "Addons::description::sort_promotions_by_position"
+msgid "Allows to specify position for promotions to sort them on the storefront"
+msgstr "Allows to specify position for promotions to sort them on the storefront"

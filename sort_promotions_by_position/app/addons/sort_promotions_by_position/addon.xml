@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>sort_promotions_by_position</id>
+    <version>1.0</version>
+    <priority>4294967294</priority>
+    <position>0</position>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <supplier>eivanova</supplier>
+    <default_language>en</default_language>
+    <status>active</status>
+    <queries>
+        <item for="install">
+            ALTER TABLE ?:promotions ADD COLUMN position MEDIUMINT(9) unsigned NOT NULL DEFAULT 0;
+        </item>
+        <item for="uninstall">
+            ALTER TABLE ?:promotions DROP COLUMN position;
+        </item>
+    </queries>
+</addon>
