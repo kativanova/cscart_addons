@@ -1,0 +1,25 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::custom_availability"
+msgid "Custom availability"
+msgstr "Custom availability"
+
+msgctxt "Addons::description::custom_availability"
+msgid "Changes the value of the Availability field of the product on frontend"
+msgstr "Changes the value of the Availability field of the product on frontend"
+
+msgctxt "Languages::a_few"
+msgid "A few"
+msgstr "A few"
+
+msgctxt "Languages::a_lot"
+msgid "A lot"
+msgstr "A lot"
+
+msgctxt "Languages::enough"
+msgid "Enough"
+msgstr "Enough"
