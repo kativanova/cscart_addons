@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>order_status_change_date</id>
+    <version>1.0</version>
+    <priority>4294967294</priority>
+    <status>active</status>
+    <supplier>eivanova</supplier>
+    <position>0</position>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <default_language>en</default_language>
+    <compatibility>
+        <core_version>
+            <min>4.13.1</min>
+            <max>4.13.3</max>
+        </core_version>
+        <core_edition>MULTIVENDOR</core_edition>
+    </compatibility>
+    <queries>
+        <item for="install">
+            ALTER TABLE ?:orders ADD COLUMN status_updated_at INT UNSIGNED NOT NULL DEFAULT 0;
+        </item>
+        <item for="uninstall">
+            ALTER TABLE ?:orders DROP COLUMN status_updated_at;
+        </item>
+    </queries>
+    <functions>
+        <item for="install">fn_order_status_change_date_install</item>
+    </functions>
+</addon>

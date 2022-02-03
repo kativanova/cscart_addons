@@ -1,0 +1,17 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::order_status_change_date"
+msgid "Order status change date"
+msgstr "Order status change date"
+
+msgctxt "Addons::description::order_status_change_date"
+msgid "Shows order status change date in the order list"
+msgstr "Shows order status change date in the order list"
+
+msgctxt "Languages::order_status_change_date.order_update_period"
+msgid "Order update period"
+msgstr "Order update period"
