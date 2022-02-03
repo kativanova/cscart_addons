@@ -15,10 +15,6 @@ function fn_my_vendor_block_get_products_before_select(&$params, $join, $conditi
         $company_id = fn_get_company_id('products', 'product_id', $product['product_id']);
         $params['company_id'] = $company_id;
 
-        if (!empty($params['main_product_id'])) {
-            $params['exclude_pid'] = $params['main_product_id'];
-        }
-
         if (!empty($params['similar_category']) && $params['similar_category'] == 'Y') {
             $params['cid'] = $product['main_category'];
 
@@ -29,8 +25,6 @@ function fn_my_vendor_block_get_products_before_select(&$params, $join, $conditi
 
     }
 
-    // in stock conditions are applied if out of stock products are not cut-off in ::fn_get_products
-    // phpcs:disable SlevomatCodingStandard.ControlStructures.EarlyExit.EarlyExitNotUsed
     if (!empty($params['similar_in_stock']) && $params['similar_in_stock'] === YesNo::YES) {
         $params['hide_out_of_stock_products'] = true;
     }

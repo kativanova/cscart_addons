@@ -8,10 +8,6 @@
     <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
     <default_language>en</default_language>
     <compatibility>
-        <core_version>
-            <min>4.12.2</min>
-            <max>4.12.2</max>
-        </core_version>
         <core_edition>MULTIVENDOR</core_edition>
     </compatibility>
 </addon>
