@@ -1,0 +1,17 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::my_avanced_product_search"
+msgid "Extended advanced product search"
+msgstr "Extended advanced product search"
+
+msgctxt "Addons::description::my_avanced_product_search"
+msgid "Adds additional condition to the advanced product search that allows to see products that belong only to the selected category and not to any other"
+msgstr "Adds additional condition to the advanced product search that allows to see products that belong only to the selected category and not to any other"
+
+msgctxt "Languages::only_this_category"
+msgid "Belongs only to this category"
+msgstr "Belongs only to this category"
