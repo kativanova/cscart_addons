@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>my_additional_notification</id>
+    <version>1.0</version>
+    <priority>4294967295</priority>
+    <position>0</position>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <status>active</status>
+    <default_language>en</default_language>
+    <email_templates>
+        <templates>
+            <item>
+                <code><![CDATA[create_profile_for_admin]]></code>
+                <area><![CDATA[A]]></area>
+                <status><![CDATA[A]]></status>
+                <default_subject><![CDATA[{{ company_name }}: {{__("new_user_profile")}}]]></default_subject>
+                <default_template><![CDATA[{{ snippet("header", {"title": __("new_user_profile")} ) }}
+
+{{ __("hello") }},
+<br />
+<br /> {{ __("text_new_user_profile", {"[user_login]": user_data.email, "[url]": url, "[url_text]": url|puny_decode}) }}
+                
+{{ snippet("footer") }}]]></default_template>
+                <addon><![CDATA[my_additional_notification]]></addon>
+            </item>
+        </templates>
+    </email_templates>
+</addon>

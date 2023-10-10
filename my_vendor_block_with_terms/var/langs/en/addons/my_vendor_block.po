@@ -1,0 +1,30 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::my_vendor_block"
+msgid "My vendor block"
+msgstr "My vendor block"
+
+msgctxt "Addons::description::my_vendor_block"
+msgid "Adds a block showning products by the same vendor"
+msgstr "Adds a block showning products by the same vendor"
+
+
+msgctxt "Languages::by_the_same_vendor"
+msgid "By the same vendor"
+msgstr "By the same vendor"
+
+msgctxt "Languages::my_vendor_block.vendor_terms"
+msgid "Vendor terms"
+msgstr "Vendor terms"
+
+msgctxt "Languages::block_vendor_terms"
+msgid "Vendor terms"
+msgstr "Vendor terms"
+
+msgctxt "Languages::block_vendor_terms_description"
+msgid "Vendor terms"
+msgstr "Vendor terms"

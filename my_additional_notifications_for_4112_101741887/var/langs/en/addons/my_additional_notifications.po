@@ -1,0 +1,18 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+
+msgctxt "Addons::name::my_additional_notifications"
+msgid "Additional email for order notifications"
+msgstr "Additional email for order notifications"
+
+msgctxt "Addons::description::my_additional_notifications"
+msgid "Allows to specify an additional email for the Complete order notifications"
+msgstr "Allows to specify an additional email for the Complete order notifications"
+
+msgctxt "SettingsSections::my_additional_notifications::email_for_complete_order_notification"
+msgid "Email"
+msgstr "Email"

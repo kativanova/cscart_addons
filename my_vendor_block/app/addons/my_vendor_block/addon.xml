@@ -5,7 +5,6 @@
     <priority>4294967298</priority>
     <status>active</status>
     <supplier>eivanova</supplier>
-    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
     <default_language>en</default_language>
     <compatibility>
         <core_edition>MULTIVENDOR</core_edition>

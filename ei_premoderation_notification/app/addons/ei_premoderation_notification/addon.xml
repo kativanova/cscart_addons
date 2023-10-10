@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>ei_premoderation_notification</id>
+    <version>1.0</version>
+    <priority>4294967296</priority>
+    <position>0</position>
+    <status>active</status>
+    <compatibility>
+        <core_edition>MULTIVENDOR</core_edition>
+        <dependencies>vendor_data_premoderation</dependencies>
+    </compatibility>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <default_language>en</default_language>
+    <email_templates>
+        <templates>
+            <item>
+                <code><![CDATA[vendor_data_premoderation_notification_for_admin]]></code>
+                <area><![CDATA[A]]></area>
+                <status><![CDATA[A]]></status>
+                <default_subject><![CDATA[{{ __("vendor_data_premoderation_notification_for_admin") }}]]></default_subject>
+                <default_template><![CDATA[{{ snippet("header") }}
+
+{{ __("hello") }},<br /><br />
+
+{{ __("ei_premoderation_notification.products_require_approval") }}<br /><br />
+
+{% for product in products %}
+    {{ loop.index }}) <a href="{{ product.url }}">{{ product.product }}</a><br />
+{% endfor %}
+<br /><br />
+<a href="{{ link_to_the_list }}">{{ __("ei_premoderation_notification.list_of_products") }}</a>
+
+{{ snippet("footer") }}]]></default_template>
+                <addon><![CDATA[ei_premoderation_notification]]></addon>
+            </item>
+        </templates>
+    </email_templates>
+</addon>

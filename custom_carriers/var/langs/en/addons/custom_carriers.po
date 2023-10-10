@@ -1,0 +1,261 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::custom_carriers"
+msgid "Custom carriers"
+msgstr "Custom carriers"
+
+msgctxt "Addons::description::custom_carriers"
+msgid "Add your own carriers and display tracking numbers as links to their websites"
+msgstr "Add your own carriers and display tracking numbers as links to their websites"
+
+msgctxt "Languages::custom_carriers.general_info"
+msgid "Each custom carrier can have its own tracking URL. Use <b>%s</b> where the tracking number should be. If you specify http://example.com/index.php?tracking=<b>%s</b> and set the tracking number to test, the URL will lead to http://example.com/index.php?tracking=test."
+msgstr "Each custom carrier can have its own tracking URL. Use <b>%s</b> where the tracking number should be. If you specify http://example.com/index.php?tracking=<b>%s</b> and set the tracking number to test, the URL will lead to http://example.com/index.php?tracking=test."
+
+msgctxt "Languages::custom_carriers.add_carrier_error"
+msgid "The [name] '[value]' is already in use in regular carriers"
+msgstr "The [name] '[value]' is already in use in regular carriers"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_name_1"
+msgid "Carrier 1 name"
+msgstr "Carrier 1 name"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_url_1"
+msgid "Carrier 1 tracking URL"
+msgstr "Carrier 1 tracking URL"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_name_2"
+msgid "Carrier 2 name"
+msgstr "Carrier 2 name"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_url_2"
+msgid "Carrier 2 tracking URL"
+msgstr "Carrier 2 tracking URL"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_name_3"
+msgid "Carrier 3 name"
+msgstr "Carrier 3 name"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_url_3"
+msgid "Carrier 3 tracking URL"
+msgstr "Carrier 3 tracking URL"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_name_4"
+msgid "Carrier 4 name"
+msgstr "Carrier 4 name"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_url_4"
+msgid "Carrier 4 tracking URL"
+msgstr "Carrier 4 tracking URL"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_name_5"
+msgid "Carrier 5 name"
+msgstr "Carrier 5 name"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_url_5"
+msgid "Carrier 5 tracking URL"
+msgstr "Carrier 5 tracking URL"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_name_6"
+msgid "Carrier 6 name"
+msgstr "Carrier 6 name"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_url_6"
+msgid "Carrier 6 tracking URL"
+msgstr "Carrier 6 tracking URL"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_name_7"
+msgid "Carrier 7 name"
+msgstr "Carrier 7 name"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_url_7"
+msgid "Carrier 7 tracking URL"
+msgstr "Carrier 7 tracking URL"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_name_8"
+msgid "Carrier 8 name"
+msgstr "Carrier 8 name"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_url_8"
+msgid "Carrier 8 tracking URL"
+msgstr "Carrier 8 tracking URL"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_name_9"
+msgid "Carrier 9 name"
+msgstr "Carrier 9 name"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_url_9"
+msgid "Carrier 9 tracking URL"
+msgstr "Carrier 9 tracking URL"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_name_10"
+msgid "Carrier 10 name"
+msgstr "Carrier 10 name"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_url_10"
+msgid "Carrier 10 tracking URL"
+msgstr "Carrier 10 tracking URL"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_name_11"
+msgid "Carrier 11 name"
+msgstr "Carrier 11 name"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_url_11"
+msgid "Carrier 11 tracking URL"
+msgstr "Carrier 11 tracking URL"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_name_12"
+msgid "Carrier 12 name"
+msgstr "Carrier 12 name"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_url_12"
+msgid "Carrier 12 tracking URL"
+msgstr "Carrier 12 tracking URL"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_name_13"
+msgid "Carrier 13 name"
+msgstr "Carrier 13 name"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_url_13"
+msgid "Carrier 13 tracking URL"
+msgstr "Carrier 13 tracking URL"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_name_14"
+msgid "Carrier 14 name"
+msgstr "Carrier 14 name"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_url_14"
+msgid "Carrier 14 tracking URL"
+msgstr "Carrier 14 tracking URL"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_name_15"
+msgid "Carrier 15 name"
+msgstr "Carrier 15 name"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_url_15"
+msgid "Carrier 15 tracking URL"
+msgstr "Carrier 15 tracking URL"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_name_16"
+msgid "Carrier 16 name"
+msgstr "Carrier 16 name"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_url_16"
+msgid "Carrier 16 tracking URL"
+msgstr "Carrier 16 tracking URL"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_name_17"
+msgid "Carrier 17 name"
+msgstr "Carrier 17 name"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_url_17"
+msgid "Carrier 17 tracking URL"
+msgstr "Carrier 17 tracking URL"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_name_18"
+msgid "Carrier 18 name"
+msgstr "Carrier 18 name"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_url_18"
+msgid "Carrier 18 tracking URL"
+msgstr "Carrier 18 tracking URL"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_name_19"
+msgid "Carrier 19 name"
+msgstr "Carrier 19 name"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_url_19"
+msgid "Carrier 19 tracking URL"
+msgstr "Carrier 19 tracking URL"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_name_20"
+msgid "Carrier 20 name"
+msgstr "Carrier 20 name"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_url_20"
+msgid "Carrier 20 tracking URL"
+msgstr "Carrier 20 tracking URL"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_name_21"
+msgid "Carrier 21 name"
+msgstr "Carrier 21 name"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_url_21"
+msgid "Carrier 21 tracking URL"
+msgstr "Carrier 21 tracking URL"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_name_22"
+msgid "Carrier 22 name"
+msgstr "Carrier 22 name"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_url_22"
+msgid "Carrier 22 tracking URL"
+msgstr "Carrier 22 tracking URL"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_name_23"
+msgid "Carrier 23 name"
+msgstr "Carrier 23 name"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_url_23"
+msgid "Carrier 23 tracking URL"
+msgstr "Carrier 23 tracking URL"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_name_24"
+msgid "Carrier 24 name"
+msgstr "Carrier 24 name"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_url_24"
+msgid "Carrier 24 tracking URL"
+msgstr "Carrier 24 tracking URL"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_name_25"
+msgid "Carrier 25 name"
+msgstr "Carrier 25 name"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_url_25"
+msgid "Carrier 25 tracking URL"
+msgstr "Carrier 25 tracking URL"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_name_26"
+msgid "Carrier 26 name"
+msgstr "Carrier 26 name"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_url_26"
+msgid "Carrier 26 tracking URL"
+msgstr "Carrier 26 tracking URL"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_name_27"
+msgid "Carrier 27 name"
+msgstr "Carrier 27 name"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_url_27"
+msgid "Carrier 27 tracking URL"
+msgstr "Carrier 27 tracking URL"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_name_28"
+msgid "Carrier 28 name"
+msgstr "Carrier 28 name"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_url_28"
+msgid "Carrier 28 tracking URL"
+msgstr "Carrier 28 tracking URL"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_name_29"
+msgid "Carrier 29 name"
+msgstr "Carrier 29 name"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_url_29"
+msgid "Carrier 29 tracking URL"
+msgstr "Carrier 29 tracking URL"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_name_30"
+msgid "Carrier 30 name"
+msgstr "Carrier 30 name"
+
+msgctxt "SettingsOptions::custom_carriers::carrier_url_30"
+msgid "Carrier 30 tracking URL"
+msgstr "Carrier 30 tracking URL"

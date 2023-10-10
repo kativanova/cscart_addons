@@ -1,0 +1,17 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::ei_profile_fields"
+msgid "Modified profile fields"
+msgstr "Modified profile fields"
+
+msgctxt "Addons::description::ei_profile_fields"
+msgid "Adds additional attributes for the profile fields"
+msgstr "Adds additional attributes for the profile fields"
+
+msgctxt "Languages::addons.ei_profile_fields.placeholder"
+msgid "Placeholder"
+msgstr "Placeholder"

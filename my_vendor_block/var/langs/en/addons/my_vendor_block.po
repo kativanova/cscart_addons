@@ -12,7 +12,6 @@ msgctxt "Addons::description::my_vendor_block"
 msgid "Adds a block showning products by the same vendor"
 msgstr "Adds a block showning products by the same vendor"
 
-
 msgctxt "Languages::by_the_same_vendor"
 msgid "By the same vendor"
 msgstr "By the same vendor"

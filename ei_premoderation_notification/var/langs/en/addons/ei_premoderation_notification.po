@@ -1,0 +1,29 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::ei_premoderation_notification"
+msgid "Custom notification"
+msgstr "Custom notification"
+
+msgctxt "Addons::description::ei_premoderation_notification"
+msgid "Adds a custom admin notification about products on moderation"
+msgstr "Adds a custom admin notification about products on moderation"
+
+msgctxt "Languages::vendor_data_premoderation_notification_for_admin"
+msgid "Products require approval"
+msgstr "Products require approval"
+
+msgctxt "Languages::ei_premoderation_notification.products_require_approval"
+msgid "The followig products require approval:"
+msgstr "The followig products require approval:"
+
+msgctxt "Languages::ei_premoderation_notification.list_of_products"
+msgid "See the full list of products in the admin panel:"
+msgstr "See the full list of products in the admin panel:"
+
+msgctxt "Languages::ei_premoderation_notification.event.premoderation_notification_for_admin"
+msgid "Products require approval"
+msgstr "Products require approval"

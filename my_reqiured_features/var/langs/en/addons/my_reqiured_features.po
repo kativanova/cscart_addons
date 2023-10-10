@@ -1,0 +1,22 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::my_reqiured_features"
+msgid "Required features"
+msgstr "Required features"
+
+msgctxt "Addons::description::my_reqiured_features"
+msgid "Allows to mark features as required for filling in the admin / vendor panel"
+msgstr "Allows to mark features as required for filling in the admin / vendor panel"
+
+
+msgctxt "Languages::my_reqiured_features.feature_is_required"
+msgid "Required"
+msgstr "Required"
+
+msgctxt "Languages::my_reqiured_features.tt_views_product_features_update_feature_is_required"
+msgid "If enabled, the feature is marked as required on the product eiditing page"
+msgstr "If enabled, the feature is marked as required on the product eiditing page"

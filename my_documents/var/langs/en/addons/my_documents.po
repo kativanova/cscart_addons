@@ -1,0 +1,13 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::my_documents "
+msgid "My documents"
+msgstr "My documents"
+
+msgctxt "Addons::description::my_documents "
+msgid "Adds follwoing document: Credit memo"
+msgstr "Adds follwoing document: Credit memo"

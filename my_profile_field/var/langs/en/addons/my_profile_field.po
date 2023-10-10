@@ -1,0 +1,25 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::my_profile_field"
+msgid "Social link profile field"
+msgstr "Social link profile field"
+
+msgctxt "Addons::description::my_profile_field"
+msgid "Adds a new profile field type to specify social media links for vendors"
+msgstr "Adds a new profile field type to specify social media links for vendors"
+
+msgctxt "Languages::my_profile_field.social_media_link"
+msgid "Social media link"
+msgstr "Social media link"
+
+msgctxt "Languages::my_profile_field.social_media_link_domain"
+msgid "Social media link domain"
+msgstr "Social media link domain"
+
+msgctxt "Languages::my_profile_field.social_media_link_tooltip"
+msgid "Specify here only a domain name, e.g. https://facebook.com"
+msgstr "Specify here only a domain name, e.g. https://facebook.com"

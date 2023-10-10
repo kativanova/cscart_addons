@@ -1,0 +1,37 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::my_additional_notifications"
+msgid "Additional notfications"
+msgstr "Additional notfications"
+
+msgctxt "Addons::description::my_additional_notifications"
+msgid "Adds notfication about review approval for vendors and customers"
+msgstr "Adds notfication about review approval for vendors and customers"
+
+msgctxt "Languages::my_additional_notifications.subject_review_approved_notification"
+msgid "Your review has been approved"
+msgstr "Your review has been approved"
+
+msgctxt "Languages::my_additional_notifications.text_review_approved_notification"
+msgid "Your review has been approved. You can check it here"
+msgstr "Your review has been approved. You can check it here"
+
+msgctxt "Languages::email_template.product_review_approved_notification.v"
+msgid "Product reviews: Review approved notification for vendor"
+msgstr "Product reviews: Review approved notification for vendor"
+
+msgctxt "Languages::email_template.product_review_approved_notification.c"
+msgid "Product reviews: Review approved notification for customers"
+msgstr "Product reviews: Review approved notification for customers"
+
+msgctxt "Languages::product_reviews.text_new_post_notification_approved"
+msgid "This product review is approved"
+msgstr "This product review is approved"
+
+msgctxt "Languages::my_additional_notifications.new_post_approved"
+msgid "Product review approved"
+msgstr "Product review approved"

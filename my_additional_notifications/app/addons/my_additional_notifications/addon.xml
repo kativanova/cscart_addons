@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>my_additional_notifications</id>
+    <version>1.0</version>
+    <priority>4294967296</priority>
+    <position>0</position>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <default_language>en</default_language>
+    <status>active</status>
+    <email_templates>
+        <templates>
+            <item>
+                <code><![CDATA[product_review_approved_notification.v]]></code>
+                <area><![CDATA[A]]></area>
+                <status><![CDATA[A]]></status>
+                <default_subject><![CDATA[{{ company_name }}: {{ __("product_reviews.text_new_post_notification_approved") }}]]></default_subject>
+                <default_template><![CDATA[{{ snippet("header") }}
+
+{{ __("hello") }},<br /><br />
+
+{{ __("product_reviews.text_new_post_notification_approved") }}:&nbsp;<a href="{{ product_url }}">{{ product_data.product }}</a>
+<br /><br />
+<b>{{ __("person_name") }}</b>:&nbsp;{% if product_review_data.user_data.name %}{{ product_review_data.user_data.name }}{% else %}{{ __("customer") }}{% endif %}<br />
+
+<b>{{ __("product_reviews.rating") }}</b>:&nbsp;<span style="color:#feba0f">{% if product_review_data.rating_value == "5" %}&#9733;&#9733;&#9733;&#9733;&#9733;</span>{% elseif product_review_data.rating_value == "4" %}&#9733;&#9733;&#9733;&#9733;&#9734;{% elseif product_review_data.rating_value == "3" %}&#9733;&#9733;&#9733;&#9734;&#9734;{% elseif product_review_data.rating_value == "2" %}&#9733;&#9733;&#9734;&#9734;&#9734;{% elseif product_review_data.rating_value == "1" %}&#9733;&#9734;&#9734;&#9734;&#9734;{% endif %}</span>
+<br />
+
+{% if review_fields == 'advanced' %}
+    {% if product_review_data.message.advantages %}
+    <b>{{ __("product_reviews.advantages") }}</b>:<br />
+    {{ product_review_data.message.advantages|nl2br }}
+    <br />
+    {% endif %}
+
+    {% if product_review_data.message.disadvantages %}
+    <b>{{ __("product_reviews.disadvantages") }}</b>:<br />
+    {{ product_review_data.message.disadvantages|nl2br }}
+    <br />
+    {% endif %}
+{% endif %}
+
+{% if product_review_data.message.comment %}
+<b>{{ __("product_reviews.comment") }}</b>:<br />
+{{ product_review_data.message.comment|nl2br }}
+<br /><br />
+{% endif %}
+
+{% if product_review_data.status == 'D' %}
+<b>{{ __("product_reviews.text_approval_notice") }}</b>
+<br />
+{% endif %}
+{{ __("view") }}:<br />
+<a href="{{ product_review_url }}">{{ product_review_url|puny_decode }}</a>
+{{ snippet("footer") }}]]></default_template>
+                <addon><![CDATA[my_additional_notifications]]></addon>
+            </item>
+            <item>
+                <code><![CDATA[product_review_approved_notification.c]]></code>
+                <area><![CDATA[C]]></area>
+                <status><![CDATA[A]]></status>
+                <default_subject><![CDATA[{{ company_name }}: {{ __("my_additional_notifications.subject_review_approved_notification") }}]]></default_subject>
+                <default_template><![CDATA[{{ snippet("header") }}
+
+  {{ __("hello") }}, {{ user_data.firstname }} {{ user_data.lastname }}<br /><br />
+
+{{ __("my_additional_notifications.text_review_approved_notification") }}:&nbsp;<a href="{{ product_url }}">{{ product_data.product }}</a>
+<br /><br />
+{{ snippet("footer") }}]]></default_template>
+                <addon><![CDATA[my_additional_notifications]]></addon>
+            </item>
+        </templates>
+    </email_templates>
+</addon>

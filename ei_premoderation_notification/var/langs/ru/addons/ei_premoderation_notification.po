@@ -1,0 +1,37 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /release-4.14.2/addons/ebay.po\n"
+"X-Crowdin-File-ID: 5811\n"
+"PO-Revision-Date: 2022-01-26 08:50\n"
+
+msgctxt "Addons::name::ei_premoderation_notification"
+msgid "Custom notification"
+msgstr "Пользовательские уведомления"
+
+msgctxt "Addons::description::ei_premoderation_notification"
+msgid "Adds a custom admin notification about products on moderation"
+msgstr "Добавляет e-mail уведомление для администратора о новых товарах, тебующих модерации"
+
+msgctxt "Languages::vendor_data_premoderation_notification_for_admin"
+msgid "Products require approval"
+msgstr "Новые товары на модерации"
+
+msgctxt "Languages::ei_premoderation_notification.products_require_approval"
+msgid "The followig products require approval:"
+msgstr "Следующие товары ожидают модерации:"
+
+msgctxt "Languages::ei_premoderation_notification.list_of_products"
+msgid "See the full list of products in the admin panel:"
+msgstr "Полный список товаров на модерации в панели администратора:"
+
+msgctxt "Languages::ei_premoderation_notification.event.premoderation_notification_for_admin"
+msgid "Products require approval"
+msgstr "Новые товары на модерации"

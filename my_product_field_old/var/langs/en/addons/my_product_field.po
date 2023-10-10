@@ -1,0 +1,21 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::my_product_field"
+msgid "My product field"
+msgstr "My product field"
+
+msgctxt "Addons::description::my_product_field"
+msgid "Adds a Custom Link field to the product"
+msgstr "Adds a Custom Link field to the product"
+
+msgctxt "Languages::my_product_field.custom_link"
+msgid "Custom link"
+msgstr "Custom link"
+
+msgctxt "Languages::custom_link"
+msgid "Custom link"
+msgstr "Custom link"

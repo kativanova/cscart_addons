@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<addon scheme="2.0">
+	<id>confirmation_message</id>
+	<name>Confirmation message</name>
+	<priority>5555</priority>
+	<position>0</position>
+	<status>active</status>
+	<dependencies></dependencies>
+	<settings>
+        <sections>
+			<section id="general">
+				<name>General</name>
+	            <items>
+					<item id="full_description1">
+						<name>full description</name>
+						<type>checkbox</type>
+						<default_value>Y</default_value>
+					</item>
+					<item id="short_description1">
+						<name>short description</name>
+						<type>checkbox</type>
+						<default_value>N</default_value>
+					</item>
+					<item id="img11">
+						<name>show images</name>
+						<type>checkbox</type>
+						<default_value>Y</default_value>
+					</item>
+				</items>
+			</section>
+		</sections>
+	</settings>
+
+	<queries>
+		<item for="install">ALTER TABLE `?:order_details` ADD COLUMN full_description varchar(255) NOT NULL DEFAULT ''</item>
+		<item for="install">ALTER TABLE `?:order_details` ADD COLUMN short_description varchar(255) NOT NULL DEFAULT ''</item>
+
+		<item for="uninstall">ALTER TABLE `?:order_details` DROP COLUMN full_description</item>
+		<item for="uninstall">ALTER TABLE `?:order_details` DROP COLUMN short_description</item>
+	</queries>
+</addon>

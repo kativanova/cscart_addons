@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<addon scheme="4.0">
+    <id>mailcatcher</id>
+    <version>1.0</version>
+    <priority>1500</priority>
+    <status>active</status>
+    <default_language>en</default_language>
+    <autoload>
+        <psr4 prefix="Tygh\Addons\MailCatcher\">src</psr4>
+    </autoload>
+    <bootstrap>\Tygh\Addons\MailCatcher\Bootstrap</bootstrap>
+</addon>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>my_notifications</id>
+    <version>1.0</version>
+    <priority>4294967294</priority>
+    <position>0</position>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <default_language>en</default_language>
+    <status>active</status>
+    <email_templates>
+        <templates>
+            <item>
+                <code><![CDATA[vendor_new_company_rules]]></code>
+                <area><![CDATA[A]]></area>
+                <status><![CDATA[A]]></status>
+                <default_subject><![CDATA[{{ __("vendor_new_company_rules.subject") }}]]></default_subject>
+                <default_template><![CDATA[{{ snippet("header") }}
+{{ __("vendor_new_company_rules.body") }}
+
+{{ snippet("footer") }}]]></default_template>
+                <addon><![CDATA[my_notifications]]></addon>
+            </item>
+        </templates>
+    </email_templates>
+</addon>

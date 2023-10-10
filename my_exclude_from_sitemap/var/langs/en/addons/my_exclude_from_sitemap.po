@@ -1,0 +1,17 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::my_exclude_from_sitemap"
+msgid "Exclude pages from sitemap"
+msgstr "Exclude pages from sitemap"
+
+msgctxt "Addons::description::my_exclude_from_sitemap"
+msgid "Allows to exclude certain pages from Google Sitemap"
+msgstr "Allows to exclude certain pages from Google Sitemap"
+
+msgctxt "Languages::is_excluded"
+msgid "Exclude page from Google Sitemap"
+msgstr "Exclude page from Google Sitemap"

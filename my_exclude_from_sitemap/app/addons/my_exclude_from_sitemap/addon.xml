@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>my_exclude_from_sitemap</id>
+    <version>1.0</version>
+    <priority>4294967296</priority>
+    <position>0</position>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <status>active</status>
+    <default_language>en</default_language>
+    <queries>
+        <item for="install">ALTER TABLE ?:pages ADD COLUMN is_excluded CHAR(1) NOT NULL DEFAULT 'N'</item>
+        <item for="uninstall">ALTER TABLE ?:pages DROP is_excluded</item>
+    </queries>
+</addon>

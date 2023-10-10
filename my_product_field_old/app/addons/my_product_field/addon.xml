@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>my_product_field</id>
+    <version>1.0</version>
+    <priority>4294967296</priority>
+    <position>0</position>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <default_language>en</default_language>
+    <status>active</status>
+    <supplier>eivanova</supplier>
+    <queries>
+        <item for="install">ALTER TABLE ?:products ADD COLUMN custom_link VARCHAR(255)</item>
+        <item for="uninstall">ALTER TABLE ?:products DROP COLUMN custom_link</item>
+    </queries>
+</addon>

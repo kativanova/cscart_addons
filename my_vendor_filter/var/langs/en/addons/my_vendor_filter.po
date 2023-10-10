@@ -1,0 +1,25 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::my_vendor_filter"
+msgid "Featured vendor filter"
+msgstr "Featured vendor filter"
+
+msgctxt "Addons::description::my_vendor_filter"
+msgid "Adds filter by featured vendors"
+msgstr "Adds filter by featured vendors"
+
+msgctxt "Languages::my_vendor_filter.featured_vendor_title"
+msgid "Featured vendor (for additional filter)"
+msgstr "Featured vendor (for additional filter)"
+
+msgctxt "Languages::my_vendor_filter.is_featured_vendor"
+msgid "Featured vendor"
+msgstr "Featured vendor"
+
+msgctxt "Languages::my_vendor_filter.featured_vendor_filter"
+msgid "Featured vendor"
+msgstr "Featured vendor"

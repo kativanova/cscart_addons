@@ -1,0 +1,17 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::mailcatcher"
+msgid "MailCatcher"
+msgstr "MailCatcher"
+
+msgctxt "Addons::description::mailcatcher"
+msgid "Catches all sent email messages"
+msgstr "Catches all sent email messages"
+
+msgctxt "Languages::mailcatcher.notification.cathed_messages"
+msgid "[n] email message was caught|[n] email messages were caught"
+msgstr "[n] email message was caught|[n] email messages were caught"

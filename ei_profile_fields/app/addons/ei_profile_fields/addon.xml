@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>ei_profile_fields</id>
+    <version>1.0</version>
+    <priority>4294967295</priority>
+    <status>active</status>
+    <supplier>eivanova</supplier>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <default_language>en</default_language>
+    <compatibility>
+        <core_edition>MULTIVENDOR</core_edition>
+        <dependencies>rus_cities</dependencies>
+    </compatibility>
+    <queries>
+        <item for="install">ALTER TABLE ?:profile_fields ADD COLUMN field_placeholder VARCHAR(128)</item>
+        <item for="install">ALTER TABLE ?:profile_fields ADD COLUMN field_description VARCHAR(128)</item>
+        <item for="uninstall">ALTER TABLE ?:profile_fields DROP COLUMN field_placeholder</item>
+        <item for="uninstall">ALTER TABLE ?:profile_fields DROP COLUMN field_description</item>
+    </queries>
+</addon>

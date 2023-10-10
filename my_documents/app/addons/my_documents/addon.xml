@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>my_documents</id>
+    <version>1.0</version>
+    <priority>4294967297</priority>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <status>active</status>
+    <document_templates type="file">resources/document_templates.xml</document_templates>
+</addon>

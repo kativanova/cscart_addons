@@ -1,0 +1,21 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::my_notifications"
+msgid "Additional notifications"
+msgstr "Additional notifications"
+
+msgctxt "Addons::description::my_notifications"
+msgid "Addon adds new notification for newly created vendors"
+msgstr "Addon adds new notification for newly created vendors"
+
+msgctxt "Languages::vendor_new_company_rules.subject"
+msgid "La Charte ESHOP"
+msgstr "La Charte ESHOP"
+
+msgctxt "Languages::vendor_new_company_rules.body"
+msgid "La Charte ESHOP<br><br>Nous voulons nous assurer que nos clients aient une excellente expérience lors de leurs achats sur ESHOP, quelle que soit la boutique dans laquelle ils achètent. C'est pourquoi nous avons créé les normes des boutiques ESHOP auxquelles toutes nos boutiques doivent adhérer. Celles-ci décrivent le niveau de service de base que nous vous invitons à fournir pour s'assurer d'être tous au top niveau et d'avoir les meilleurs avis clients possible !<br>Nous savons que vous faites tourner votre boutique physique avec le coeur, et nous voulons vous aider à le faire au mieux dans votre versions digitalisée !<br><br>10 ARTICLES MINIMUM<br>Vous devez créer un minimum de 10 articles pour activer votre Boutique. Nous attendons de vous que vous apportiez le plus grand soin à la création de vos articles : belles photos , descriptions soignées et détaillées, attention portée aux catégories, déclinaisons, etc...<br>NB : Retrouvez toutes les bonnes pratiques sur le Blog Boutiques<br><br>PAS DE DROPSHIPPING<br>Le dropshipping n'est pas autorisé sur la plateforme. Vous devez posséder physiquement le stock que vous annoncez sur votre boutique en ligne.<br><br>ENVOI & RETOURS SOUS 48H<br>Depuis votre boutique, il est facile d'imprimer votre bon de livraison et de poster votre colis. Et bientôt, nous vous proposerons un service de récupération directement en boutique !<br>/!\ Les retours doivent également être traités sous 48h.<br><br>MESSAGES CLIENTS FRIENDLY<br>Des réponses rapides aux Shoppers sont essentielles pour une bonne expérience client ! Une réponse rapide est recommandée pour maximiser la conversion en vente.<br><br>NB : Vous recevrez une notification par mail à chaque début de conversation"<br>"
+msgstr "La Charte ESHOP<br><br>Nous voulons nous assurer que nos clients aient une excellente expérience lors de leurs achats sur ESHOP, quelle que soit la boutique dans laquelle ils achètent. C'est pourquoi nous avons créé les normes des boutiques ESHOP auxquelles toutes nos boutiques doivent adhérer. Celles-ci décrivent le niveau de service de base que nous vous invitons à fournir pour s'assurer d'être tous au top niveau et d'avoir les meilleurs avis clients possible !<br>Nous savons que vous faites tourner votre boutique physique avec le coeur, et nous voulons vous aider à le faire au mieux dans votre versions digitalisée !<br><br>10 ARTICLES MINIMUM<br>Vous devez créer un minimum de 10 articles pour activer votre Boutique. Nous attendons de vous que vous apportiez le plus grand soin à la création de vos articles : belles photos , descriptions soignées et détaillées, attention portée aux catégories, déclinaisons, etc...<br>NB : Retrouvez toutes les bonnes pratiques sur le Blog Boutiques<br><br>PAS DE DROPSHIPPING<br>Le dropshipping n'est pas autorisé sur la plateforme. Vous devez posséder physiquement le stock que vous annoncez sur votre boutique en ligne.<br><br>ENVOI & RETOURS SOUS 48H<br>Depuis votre boutique, il est facile d'imprimer votre bon de livraison et de poster votre colis. Et bientôt, nous vous proposerons un service de récupération directement en boutique !<br>/!\ Les retours doivent également être traités sous 48h.<br><br>MESSAGES CLIENTS FRIENDLY<br>Des réponses rapides aux Shoppers sont essentielles pour une bonne expérience client ! Une réponse rapide est recommandée pour maximiser la conversion en vente.<br><br>NB : Vous recevrez une notification par mail à chaque début de conversation"<br>"

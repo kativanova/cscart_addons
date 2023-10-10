@@ -1,0 +1,21 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::my_product_field"
+msgid "Additional product field"
+msgstr "Additional product field"
+
+msgctxt "Addons::description::my_product_field"
+msgid "Adds the follwoing product field: Rentable"
+msgstr "Adds the follwoing product field: Rentable"
+
+msgctxt "Languages::my_product_field.is_rentable"
+msgid "Rentable"
+msgstr "Rentable"
+
+msgctxt "Languages::my_product_field.lessor"
+msgid "Lessor"
+msgstr "Lessor"

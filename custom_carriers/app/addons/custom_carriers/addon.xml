@@ -1,0 +1,208 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>custom_carriers</id>
+    <version>1.0</version>
+    <default_language>en</default_language>
+    <status>active</status>
+    <compatibility>
+        <core_version>
+            <min>4.13.1</min>
+        </core_version>
+    </compatibility>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="info">
+                        <type>info</type>
+                        <handler>fn_custom_carriers_info</handler>
+                    </item>
+                    <item id="carrier_name_1">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_url_1">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_name_2">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_url_2">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_name_3">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_url_3">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_name_4">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_url_4">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_name_5">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_url_5">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_name_6">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_url_6">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_name_7">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_url_7">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_name_8">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_url_8">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_name_9">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_url_9">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_name_10">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_url_10">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_name_11">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_url_11">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_name_12">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_url_12">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_name_13">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_url_13">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_name_14">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_url_14">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_name_15">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_url_15">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_name_16">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_url_16">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_name_17">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_url_17">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_name_18">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_url_18">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_name_19">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_url_19">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_name_20">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_url_20">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_name_21">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_url_21">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_name_22">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_url_22">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_name_23">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_url_23">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_name_24">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_url_24">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_name_25">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_url_25">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_name_26">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_url_26">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_name_27">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_url_27">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_name_28">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_url_28">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_name_29">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_url_29">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_name_30">
+                        <type>input</type>
+                    </item>
+                    <item id="carrier_url_30">
+                        <type>input</type>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item>ALTER TABLE `?:shipping_services` ADD `is_custom` char(1) NOT NULL default 'N', ADD `tracking_url` varchar(255) NOT NULL default ''</item>
+        <item for="uninstall">ALTER TABLE `?:shipping_services` DROP `is_custom`, DROP `tracking_url`</item>
+    </queries>
+</addon>

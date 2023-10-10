@@ -20,7 +20,6 @@ msgctxt "Addons::description::my_vendor_block"
 msgid "Adds a block showning products by the same vendor"
 msgstr "Позволяет добавлять блок с другими товарами продавца на страницу товара"
 
-
 msgctxt "Languages::by_the_same_vendor"
 msgid "By the same vendor"
 msgstr "Другие товары продавца"

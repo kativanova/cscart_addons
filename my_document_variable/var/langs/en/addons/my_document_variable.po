@@ -1,0 +1,13 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::my_document_variable"
+msgid "Order documents variable"
+msgstr "Order documents variable"
+
+msgctxt "Addons::description::my_document_variable"
+msgid "Adds vendor_terms variable to order documents"
+msgstr "Adds vendor_terms variable to order documents"
