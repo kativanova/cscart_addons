@@ -1,0 +1,21 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::my_h1_header"
+msgid "SEO H1 field"
+msgstr "SEO H1 field"
+
+msgctxt "Addons::description::my_h1_header"
+msgid "Adds H1 field to categories and pages"
+msgstr "Adds H1 field to categories and pages"
+
+msgctxt "Languages::h1_header"
+msgid "H1 header"
+msgstr "H1 header"
+
+msgctxt "Languages::seo_description"
+msgid "SEO description"
+msgstr "SEO description"
