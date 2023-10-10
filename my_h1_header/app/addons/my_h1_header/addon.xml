@@ -16,9 +16,13 @@
 
         <item for="install">ALTER TABLE ?:product_feature_variant_descriptions ADD `h1_header` varchar(255) NOT NULL;</item>
         <item for="install">ALTER TABLE ?:product_feature_variant_descriptions ADD `seo_description` mediumtext NOT NULL;</item>
+
+        <item for="install">ALTER TABLE ?:company_descriptions ADD `h1_header` varchar(255) NOT NULL;</item>
+        <item for="install">ALTER TABLE ?:company_descriptions ADD `seo_description` mediumtext NOT NULL;</item>
         
         <item for="uninstall">ALTER TABLE ?:category_descriptions DROP `h1_header`, DROP `seo_description`</item>
         <item for="uninstall">ALTER TABLE ?:page_descriptions DROP `h1_header`, DROP `seo_description`</item>
         <item for="uninstall">ALTER TABLE ?:product_feature_variant_descriptions DROP `h1_header`, DROP `seo_description`</item>
+        <item for="uninstall">ALTER TABLE ?:company_descriptions DROP `h1_header`, DROP `seo_description`</item>
     </queries>
 </addon>
